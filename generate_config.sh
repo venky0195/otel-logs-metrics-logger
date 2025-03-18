@@ -42,4 +42,8 @@ service:
       receivers: [otlp]
       processors: []
       exporters: [exporter]
+    traces:
+      receivers: [otlp]
+      processors: []
+      exporters: [exporter]
 EOF
